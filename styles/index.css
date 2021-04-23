@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5F5F7;
+}
+
+header{
+    background: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.fa-apple{
+    font-size: 25px;
+    color: #f5f5f7;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    min-width: 1700px;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    color: #f5f5f7;
+    text-decoration: none;
+}
+
+.search, .store{
+    width: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main-wrap img{
+    width: 100%;
+}
+
+.main-wrap h1{
+    font-size: 2rem;
+}
